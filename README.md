@@ -37,7 +37,7 @@ This repository contains a full, **structured data analytics** workflow analyzin
 - Preprocessing with `sklearn.preprocessing` (e.g., encoding/scaling where needed)
 - Insight summaries that connect behaviors to performance
 
-> If you extended this with modeling or segmentation, add a short subsection here (e.g., *KMeans clustering for learner personas*).
+
 
 ---
 
@@ -47,7 +47,7 @@ This repository contains a full, **structured data analytics** workflow analyzin
 - Slicers for **Preferred Learning Style**, **Gender**, **Study Hours**, etc.
 - Drill‑downs to compare cohorts and behaviors
 
-> Add screenshots in `reports/figures/` and reference them here.
+
 
 ---
 
@@ -90,11 +90,7 @@ student-learning-style-analytics/
 ├─ notebooks/
 │  └─ DataAnalytics_P1.ipynb
 ├─ powerbi/
-│  └─ Student Performance Learning Style Dashboard.pbix
-├─ reports/
-│  └─ figures/            # (Add PNGs of charts/PBI screenshots here)
-├─ src/                   # (Optional: helper modules, if any)
-├─ docs/                  # (Optional: extra docs)
+│  └─ Student Performance Learning Style Dashboard.pbix                       
 ├─ requirements.txt
 ├─ .gitignore
 ├─ .gitattributes         # tracks .pbix with Git LFS
@@ -121,22 +117,3 @@ git commit -m "Track Power BI report with Git LFS"
 ```
 
 ---
-
-## ✍️ How to Cite on a Resume / Portfolio
-
-- **Title**: *Student Learning Styles & Academic Performance — Data Analytics Project*
-- **Highlights**: Performed EDA, built visuals, and created a Power BI dashboard to explore how learning behaviors correlate with performance on a 10,000‑row dataset.
-- **Stack**: Python (pandas, plotly, seaborn, scikit‑learn), Power BI.
-- **Link**: GitHub repository (and optional dashboard screenshots).
-
----
-
-## 🧰 Requirements
-
-See [`requirements.txt`](requirements.txt). Includes: `pandas`, `matplotlib`, `seaborn`, `plotly`, `scikit-learn`, and `mysql-connector-python` (for MySQL connectivity used in the notebook).
-
----
-
-## 📄 License
-
-Choose a license (e.g., MIT) and add a `LICENSE` file if you plan to share/reuse this work.
