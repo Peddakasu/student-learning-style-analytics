@@ -1,0 +1,29 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environments & IDE
+.env
+.venv/
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+dist/
+build/
+
+# Jupyter
+.jupyter/
+
+# Power BI autosaves (optional)
+~*.pbix
